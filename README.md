@@ -1,67 +1,111 @@
-# 🏗️ Enterprise Multi-Agent Orchestrator
+# 🏢 Enterprise AI Orchestration System  
+### Multi-Agent Intelligence Control Panel
 
 ## Overview
 
-Enterprise Multi-Agent Orchestrator is a modular AI system prototype that simulates internal enterprise automation using a routing layer and multiple specialized agents.
+Enterprise AI Orchestrator is a modular multi-agent system prototype designed to simulate internal enterprise AI automation workflows.
 
-The system demonstrates architecture thinking aligned with internal AI workflow design.
+The system routes business updates through specialized agents and generates a structured executive brief.
+
+This project demonstrates architecture thinking, workflow routing, structured output generation, and enterprise-style dashboard design.
 
 ---
 
-## Architecture
+## 🧠 System Architecture
 
 User Input  
 ↓  
 Orchestrator Layer  
 ↓  
 • Summary Agent  
-• Risk Agent  
-• Strategy Agent  
+• Risk Detection Agent  
+• Strategy Intelligence Agent  
 ↓  
 Aggregation Layer  
 ↓  
-Structured Executive Brief  
+Executive Brief + Intelligence Metrics  
 
 ---
 
-## Agents
+## 📸 Demo Preview
+
+### 🏢 Dashboard View
+![Dashboard](Assets/home1.png)
+![Dashboard](Assets/home2.png)
+
+### 🛰 Agent Execution Log
+![Execution](Assets/result1.png)
+![Execution](Assets/result2.png)
+![Execution](Assets/result3.png)
+![Execution](Assets/result4.png)
+
+### 📊 Executive Output & Download
+![Output](Assets/print1.png)
+![Output](Assets/print2.png)
+![Output](Assets/print3.png)
+
+---
+
+## 🔍 Features
+
+- Multi-agent routing architecture
+- Structured executive output
+- Intelligence metrics dashboard
+- Executive readiness index
+- Expandable analysis sections
+- Downloadable executive report
+- LLM-ready modular pipeline
+
+---
+
+## 🧩 Agents
 
 ### Summary Agent
-Generates executive-level overview of business updates.
+Extracts high-level executive overview from business updates.
 
 ### Risk Agent
-Identifies operational and strategic risks from text.
+Detects operational, regulatory, and strategic risks.
 
 ### Strategy Agent
-Detects improvement signals and opportunity indicators.
+Identifies improvement signals and forward-planning opportunities.
 
 ---
 
-## Why This Matters
+## 📊 Intelligence Metrics
 
-This project demonstrates:
-
-- Multi-agent orchestration design
-- Modular separation of concerns
-- Workflow routing logic
-- Enterprise-style executive output generation
-- LLM-ready architecture
+The system calculates:
+- Risk count
+- Strategy signal count
+- Summary density
+- Executive readiness score
 
 ---
 
-## Future Enhancements
-
-- Claude API integration for semantic reasoning
-- Tool-calling architecture
-- Slack integration
-- Role-based output customization
-- Persistent memory layer
-
----
-
-## Run Locally
+## 🚀 Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+---
+
+## 🔮 Future Enhancements
+
+- Claude API integration
+- Multi-agent reasoning chains
+- Slack integration
+- Role-based reporting
+- Memory persistence layer
+
+---
+
+## 🎯 Why This Project Matters
+
+This project demonstrates:
+
+- Modular system design
+- Multi-agent orchestration logic
+- Separation of concerns
+- Enterprise dashboard UI design
+- LLM-ready architecture thinking
